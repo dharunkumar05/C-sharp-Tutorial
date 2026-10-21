@@ -12,7 +12,7 @@ class NumberAnalyzer
         while (count < 8)
         {
             Console.Write($"Enter integer {count + 1}: ");
-            string input = Console.ReadLine();
+            string input = Console.ReadLine() ?? "";
 
             if (int.TryParse(input, out int number))
             {
