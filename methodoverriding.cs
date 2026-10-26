@@ -16,6 +16,10 @@ class Electrician : Plumber
     }
 }
 
+
+
+namespace MethodOverriding
+{
 class Program
 {
     static void Main()
@@ -26,4 +30,5 @@ class Program
         Plumber p1 = new Electrician();
         p1.Work();
     }
+}
 }

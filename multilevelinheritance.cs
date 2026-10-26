@@ -1,5 +1,5 @@
 using System;
-
+namespace multilevelinheritance {
 class Dept
 {
     public string deptName = "CSE";
@@ -40,4 +40,5 @@ class Inheritance
         s.DisplayStaff();
         s.DisplayDept();
     }
+}
 }

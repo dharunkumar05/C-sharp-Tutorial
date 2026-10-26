@@ -32,7 +32,8 @@ class OTT : INetflix, IPrime, IJioHotstar
         Console.WriteLine("Watching JioHotstar");
     }
 }
-
+namespace multipleinheritance
+{
 class Program
 {
     static void Main()
@@ -43,4 +44,5 @@ class Program
         obj.WatchPrime();
         obj.WatchJioHotstar();
     }
+}
 }
