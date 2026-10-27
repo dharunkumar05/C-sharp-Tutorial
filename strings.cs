@@ -4,6 +4,6 @@ class strings
 {
     static void Main()
     {
-        Console.Write("")
+        Console.Write("");
     }
 }
