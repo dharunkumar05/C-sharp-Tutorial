@@ -1,6 +1,6 @@
 using System;
 
-class strings
+class Strings
 {
     static void Main()
     {
