@@ -2,7 +2,7 @@ using System;
 namespace RecordClass;
 record class Student(string Name, int Mark)
 {
-    public string dept ;
+    public string dept  ;
 
 }
 
